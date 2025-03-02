@@ -2,8 +2,10 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using PrizmaLibrary.Application.Interfaces.Repositories;
+using PrizmaLibrary.Application.Interfaces.UnitOfWorks;
 using PrizmaLibrary.Persistance.Context;
 using PrizmaLibrary.Persistance.Repositories;
+using PrizmaLibrary.Persistance.UnitOfWorks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,6 +27,8 @@ namespace PrizmaLibrary.Persistance
 
             services.AddScoped(typeof(IReadRepository<>), typeof(ReadRepository<>));
             services.AddScoped(typeof(IWriteRepository<>), typeof(WriteRepository<>));
+
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }
 }

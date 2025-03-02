@@ -17,11 +17,11 @@ namespace PrizmaLibrary.Domain.Entities
             CategoryId = categoryId;
         }
 
-        public required string Title { get; set; }
-        public required string Description { get; set; }
-        public required bool IsDeleted { get; set; } = false;
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public bool IsDeleted { get; set; } = false;
 
-        public required int CategoryId { get; set; }
+        public int CategoryId { get; set; }
         public Category Category { get; set; }
     }
 }

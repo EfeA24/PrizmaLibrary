@@ -17,10 +17,10 @@ namespace PrizmaLibrary.Domain.Entities
             Priorty = priorty;
         }
 
-        public required int ParentId { get; set; }
-        public required string Name { get; set; }
-        public required int Priorty { get; set; }
-        public required bool IsDeleted { get; set; } = false;
+        public int ParentId { get; set; }
+        public string Name { get; set; }
+        public int Priorty { get; set; }
+        public bool IsDeleted { get; set; } = false;
 
         public ICollection<Detail> Details { get; set; }
         public ICollection<Book> Books { get; set; }
