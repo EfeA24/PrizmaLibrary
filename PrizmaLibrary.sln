@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infastructure", "Infastructure", "{C5470A94-5F6F-4171-9D91-119B42D26477}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{987396D9-C82D-478B-AEAD-142FD8B59788}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrizmaLibrary.Infastructure", "Infastructure\PrizmaLibrary.Infastructure\PrizmaLibrary.Infastructure.csproj", "{DD2EDA9C-0DDC-4985-BDD1-DC8B0332301B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrizmaLibrary.Application", "Core\PrizmaLibrary.Application\PrizmaLibrary.Application.csproj", "{F7C440FB-CF87-4DEF-AF7E-BF1DDBE88E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrizmaLibrary.Persistance", "Infastructure\PrizmaLibrary.Persistance\PrizmaLibrary.Persistance.csproj", "{14B18740-0A57-44C0-A9DE-4DFFD6A136E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrizmaLibrary.Domain", "Core\PrizmaLibrary.Domain\PrizmaLibrary.Domain.csproj", "{E270CB8B-B3D1-442E-BA62-1D8AF0EE9EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{13455559-FF3D-48F5-B09E-2CFCFFFBD5CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD2EDA9C-0DDC-4985-BDD1-DC8B0332301B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2EDA9C-0DDC-4985-BDD1-DC8B0332301B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2EDA9C-0DDC-4985-BDD1-DC8B0332301B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2EDA9C-0DDC-4985-BDD1-DC8B0332301B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C440FB-CF87-4DEF-AF7E-BF1DDBE88E01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C440FB-CF87-4DEF-AF7E-BF1DDBE88E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C440FB-CF87-4DEF-AF7E-BF1DDBE88E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C440FB-CF87-4DEF-AF7E-BF1DDBE88E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B18740-0A57-44C0-A9DE-4DFFD6A136E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B18740-0A57-44C0-A9DE-4DFFD6A136E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B18740-0A57-44C0-A9DE-4DFFD6A136E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B18740-0A57-44C0-A9DE-4DFFD6A136E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E270CB8B-B3D1-442E-BA62-1D8AF0EE9EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E270CB8B-B3D1-442E-BA62-1D8AF0EE9EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E270CB8B-B3D1-442E-BA62-1D8AF0EE9EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E270CB8B-B3D1-442E-BA62-1D8AF0EE9EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13455559-FF3D-48F5-B09E-2CFCFFFBD5CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13455559-FF3D-48F5-B09E-2CFCFFFBD5CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13455559-FF3D-48F5-B09E-2CFCFFFBD5CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13455559-FF3D-48F5-B09E-2CFCFFFBD5CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD2EDA9C-0DDC-4985-BDD1-DC8B0332301B} = {C5470A94-5F6F-4171-9D91-119B42D26477}
+		{F7C440FB-CF87-4DEF-AF7E-BF1DDBE88E01} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{14B18740-0A57-44C0-A9DE-4DFFD6A136E6} = {C5470A94-5F6F-4171-9D91-119B42D26477}
+		{E270CB8B-B3D1-442E-BA62-1D8AF0EE9EF8} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{13455559-FF3D-48F5-B09E-2CFCFFFBD5CE} = {987396D9-C82D-478B-AEAD-142FD8B59788}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {444F3898-6292-429B-9E6B-C22BA540352F}
+	EndGlobalSection
+EndGlobal
